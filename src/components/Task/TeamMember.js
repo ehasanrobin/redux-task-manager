@@ -16,6 +16,7 @@ const TeamMember = ({ task }) => {
       ...task,
       status: updatedStatus,
     };
+    console.log(data);
     editTask({ id, data });
   };
   const handleDelete = () => {
